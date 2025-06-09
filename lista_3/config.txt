@@ -1,0 +1,6 @@
+nome=João
+idade=30
+cidade=São Paulo
+profissao=Engenheiro
+ativo=true
+salario=5000.50
