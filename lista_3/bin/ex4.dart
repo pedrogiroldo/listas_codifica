@@ -14,7 +14,9 @@ void printConfiguracoes(List<String> configuracoes) {
     (configuracao) => configuracao.split("="),
   );
 
-  configs.forEach((config) => print("${config[0]}: ${config[1]}"));
+  for (var config in configs) {
+    print("${config[0]}: ${config[1]}");
+  }
 }
 
 void main() async {
