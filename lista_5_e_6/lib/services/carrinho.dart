@@ -11,7 +11,7 @@ class Carrinho {
     produtos.remove(produto);
   }
 
-  double _calcularTotal() {
+  double calcularTotal() {
     double total = 0.0;
     for (var produto in produtos) {
       total += produto.preco;
@@ -25,6 +25,6 @@ class Carrinho {
       print("${produto.nome}: R\$${produto.preco}");
     }
     print('---------------------');
-    print("Total do carrinho: ${_calcularTotal()}");
+    print("Total do carrinho: ${calcularTotal()}");
   }
 }
